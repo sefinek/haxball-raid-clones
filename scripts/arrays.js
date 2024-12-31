@@ -4,7 +4,7 @@ const USERNAMES = [
 	'Sbx', 'Rumpolog', 'chinczyk', 'RadosnyStolec', 'Mike Dwubiegunowy',
 ];
 
-const MESSAGES_ENCRYPTED = [
+const ENCRYPTED_MESSAGES = [
 	'YWxlIHplIG1uaWUgcGVkYWw=',
 	'SmVzdGVtIHBlZGHFgmVtLg==',
 	'a3Vyd2EsIGFsZSBzd8SZZHppIG1uaWUgcHLEhWNpZQ==',
@@ -24,7 +24,7 @@ const MESSAGES_ENCRYPTED = [
 ];
 
 const decodeBase64Messages = str => str.map(msg => Buffer.from(msg, 'base64').toString('utf-8'));
-const decodedMessagesArray = decodeBase64Messages(MESSAGES_ENCRYPTED);
+const decodedMessagesArray = decodeBase64Messages(ENCRYPTED_MESSAGES);
 
 module.exports = { USERNAMES, MESSAGES: [...decodedMessagesArray] };
 
