@@ -1,7 +1,7 @@
 const USERNAMES = [
 	'Pscx1', 'wonderkid', '🐌 Pkt', 'Leeeeniiii', 'ErforTinho', 'six nine', 'zax', 'Zdun', 'Rumpolog', 'Faluś', 'Dawidomad', 'przekozak',
 	'MrWorldwide', 'Jack Wilshere', 'Nektar Ananasowy', 'solek', 'hover cat', 'farmer', 'Yezzy>!', 'sucz44', 'FuzzaMuzza', 'FZK',
-	'Sbx', 'wonderkid', 'chinczyk', 'RadosnyStolec', 'Mike Dwubiegunowy',
+	'Sbx', 'Rumpolog', 'chinczyk', 'RadosnyStolec', 'Mike Dwubiegunowy',
 ];
 
 const MESSAGES_ENCRYPTED = [
