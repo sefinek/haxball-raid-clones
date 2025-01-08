@@ -1,5 +1,5 @@
 const fs = require('node:fs/promises');
-const getToken = require('../services/getToken');
+const getToken = require('../services/getToken.js');
 
 module.exports = async (page, cfg, USERNAMES) => {
 	const token = await getToken(cfg.index);
