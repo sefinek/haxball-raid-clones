@@ -10,7 +10,7 @@ const { getRandomNickname, createProfileDir, openTargetRoom, setupRoom } = requi
 const LAUNCH_DELAY = 400;
 const USERNAMES_ARRAY = [
 	'Pscx1', 'wonderkid', '🐌 Pkt', 'Leeeeniiii', 'RadosnyStolec', 'six nine', 'zax', 'chinczyk', 'Faluś', 'Dawidomad', 'przekozak', 'MrWorldwide',
-	'Jack Wilshere', 'Nektar Ananasowy', 'solek', 'hover cat', 'farmer', 'Yezzy>!', 'sucz44', 'FuzzaMuzza', 'FZK', 'Sbx', 'wonderkid',
+	'Jack Wilshere', 'Nektar Ananasowy', 'solek', 'hover cat', 'farmer', 'Yezzy>!', 'sucz44', 'FuzzaMuzza', 'FZK', 'Sbx', 'wonderkid', 'Rumpolog',
 ];
 
 const MESSAGES_ARRAY = [
